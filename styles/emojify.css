@@ -1,0 +1,179 @@
+body {
+  /* background-image: "../images/planets.jpg";
+  background-color: #30c8fb54; */
+  background-image: linear-gradient(145deg, white ,#30c8fb54 );
+
+} 
+
+.playGround {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left:10%;
+  margin-right:20%;
+  padding-top: 2em;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  align-content: center;
+  text-align: center;
+  background-color: #30c8fb54;
+
+}
+
+.sourceArea {
+  align-content: center;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 5%;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
+.sourceField {
+  align-content: center;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 5%;
+  border-style: solid;
+  border-color: white;
+  background-color: white;
+  border-width: 2px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+textarea {
+  resize: none;
+  width: 80%;
+  overflow-x: auto;
+  overflow-y: auto;
+
+
+}
+
+.emojiArea {
+  align-content: center;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 5%;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  
+}
+
+.emojiBoard {
+  align-content: center;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 5%;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* overflow: auto; */
+  /* overflow-x: auto; */
+  overflow-y: auto;
+  text-align: left;
+  display: flex;
+
+}
+
+
+
+
+
+header { 
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  /* background-color: black; */
+}
+media {
+  text-align: center;
+}
+
+
+main {
+  }
+
+/* h5 {
+  text-align: left;
+} */
+
+th {
+  text-align: center;
+}
+
+nav {
+  /* margin-left: 25px;
+  margin-right: 25px; */
+  text-align: center;
+}
+
+article {
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  padding: 1rem;
+  
+}
+
+.art {
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  padding: 1rem;
+  text-align: center;
+  display: block;
+  margin-left: 25%;
+  
+}
+
+section {
+  padding-top: 1rem;
+  align-content: center;
+  text-align: left;
+}
+
+tr:hover { 
+  background: #1EAEDB; 
+}
+td a { 
+  display: block; 
+}
+
+/* 
+more info - https://css-tricks.com/almanac/properties/c/content/
+ticket - https://github.com/phase-0/phase-0/issues/5228
+div::before {
+  content: url(../images/wireframe-blog-index-mobile.jpg);
+} */
